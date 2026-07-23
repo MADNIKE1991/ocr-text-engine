@@ -1,0 +1,22 @@
+{
+  "name": "my-ocr-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./input.css -o ./public/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "groq-sdk": "^1.2.1",
+    "multer": "^2.1.1",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.3.0"
+  }
+}
